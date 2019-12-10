@@ -1,0 +1,26 @@
+// contains scss for reusable components - button, navigation bar, etc
+
+.todo-list {
+  width: 40%;
+  margin: 10px;
+  background: whitesmoke;
+  border-radius: 10px;
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    Input {
+      width: 250px;
+      margin: 10px;
+    }
+    Button {
+      margin: 10px;
+    }
+
+  }
+}
+
+.list-item {
+  margin: 10px;
+}
